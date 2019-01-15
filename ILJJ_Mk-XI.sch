@@ -181,7 +181,7 @@ U 1 1 5C3E1736
 P 8400 2350
 F 0 "J4" H 8450 2767 50  0000 C CNN
 F 1 "Conn_Input" H 8450 2676 50  0000 C CNN
-F 2 "" H 8400 2350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x05_Pitch2.54mm" H 8400 2350 50  0001 C CNN
 F 3 "~" H 8400 2350 50  0001 C CNN
 	1    8400 2350
 	1    0    0    -1  
@@ -233,7 +233,7 @@ U 1 1 5C3E925F
 P 2600 2350
 F 0 "J5" H 2650 2767 50  0000 C CNN
 F 1 "Conn_Output" H 2650 2676 50  0000 C CNN
-F 2 "" H 2600 2350 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x06_Pitch2.54mm" H 2600 2350 50  0001 C CNN
 F 3 "~" H 2600 2350 50  0001 C CNN
 	1    2600 2350
 	1    0    0    -1  
@@ -389,7 +389,7 @@ U 1 1 5C45E6EE
 P 3400 5500
 F 0 "SW3" H 3455 5967 50  0000 C CNN
 F 1 "SW_Coded_SH-7070" H 3455 5876 50  0000 C CNN
-F 2 "" H 3100 5050 50  0001 L CNN
+F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 3100 5050 50  0001 L CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 3400 5500 50  0001 C CNN
 	1    3400 5500
 	1    0    0    -1  
@@ -400,7 +400,7 @@ U 1 1 5C45E76C
 P 4500 5500
 F 0 "SW2" H 4555 5967 50  0000 C CNN
 F 1 "SW_Coded_SH-7070" H 4555 5876 50  0000 C CNN
-F 2 "" H 4200 5050 50  0001 L CNN
+F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 4200 5050 50  0001 L CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 4500 5500 50  0001 C CNN
 	1    4500 5500
 	1    0    0    -1  
@@ -411,7 +411,7 @@ U 1 1 5C45E8D1
 P 3400 4500
 F 0 "SW1" H 3455 4967 50  0000 C CNN
 F 1 "SW_Coded_SH-7070" H 3455 4876 50  0000 C CNN
-F 2 "" H 3100 4050 50  0001 L CNN
+F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 3100 4050 50  0001 L CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 3400 4500 50  0001 C CNN
 	1    3400 4500
 	1    0    0    -1  
@@ -422,7 +422,7 @@ U 1 1 5C45E911
 P 4500 4500
 F 0 "SW0" H 4555 4967 50  0000 C CNN
 F 1 "SW_Coded_SH-7070" H 4555 4876 50  0000 C CNN
-F 2 "" H 4200 4050 50  0001 L CNN
+F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 4200 4050 50  0001 L CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 4500 4500 50  0001 C CNN
 	1    4500 4500
 	1    0    0    -1  
@@ -845,7 +845,7 @@ U 1 1 5C48B27E
 P 8300 4450
 F 0 "D4" V 8245 4528 50  0000 L CNN
 F 1 "LED" V 8336 4528 50  0000 L CNN
-F 2 "" H 8300 4450 50  0001 C CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 8300 4450 50  0001 C CNN
 F 3 "~" H 8300 4450 50  0001 C CNN
 	1    8300 4450
 	0    -1   -1   0   
@@ -856,7 +856,7 @@ U 1 1 5C494D4C
 P 7950 4450
 F 0 "D3" V 7895 4528 50  0000 L CNN
 F 1 "LED" V 7986 4528 50  0000 L CNN
-F 2 "" H 7950 4450 50  0001 C CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 7950 4450 50  0001 C CNN
 F 3 "~" H 7950 4450 50  0001 C CNN
 	1    7950 4450
 	0    -1   -1   0   
@@ -867,7 +867,7 @@ U 1 1 5C494DA0
 P 7600 4450
 F 0 "D2" V 7545 4528 50  0000 L CNN
 F 1 "LED" V 7636 4528 50  0000 L CNN
-F 2 "" H 7600 4450 50  0001 C CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 7600 4450 50  0001 C CNN
 F 3 "~" H 7600 4450 50  0001 C CNN
 	1    7600 4450
 	0    -1   -1   0   
@@ -878,7 +878,7 @@ U 1 1 5C494DEF
 P 7250 4450
 F 0 "D1" V 7195 4528 50  0000 L CNN
 F 1 "LED" V 7286 4528 50  0000 L CNN
-F 2 "" H 7250 4450 50  0001 C CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 7250 4450 50  0001 C CNN
 F 3 "~" H 7250 4450 50  0001 C CNN
 	1    7250 4450
 	0    -1   -1   0   
@@ -983,7 +983,7 @@ U 1 1 5C4FD8E9
 P 1650 2500
 F 0 "D0" V 1688 2383 50  0000 R CNN
 F 1 "LED" V 1597 2383 50  0000 R CNN
-F 2 "" H 1650 2500 50  0001 C CNN
+F 2 "LEDs:LED_D5.0mm" H 1650 2500 50  0001 C CNN
 F 3 "~" H 1650 2500 50  0001 C CNN
 	1    1650 2500
 	0    -1   -1   0   
