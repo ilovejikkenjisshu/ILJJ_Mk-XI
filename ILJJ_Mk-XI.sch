@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ILJJ_Mk-XI-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -175,110 +176,26 @@ Wire Wire Line
 	5800 2500 7300 2500
 Wire Wire Line
 	7300 2500 7300 2550
-$Comp
-L Connector_Generic:Conn_02x06_Row_Letter_Last J4
-U 1 1 5C3E1736
-P 8400 2350
-F 0 "J4" H 8450 2767 50  0000 C CNN
-F 1 "Conn_Input" H 8450 2676 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x05_Pitch2.54mm" H 8400 2350 50  0001 C CNN
-F 3 "~" H 8400 2350 50  0001 C CNN
-	1    8400 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 2150 8200 2150
 Connection ~ 7300 2150
-Connection ~ 8200 2150
-Wire Wire Line
-	8200 2150 7300 2150
-Wire Wire Line
-	8700 2250 8200 2250
 Connection ~ 7300 2250
-Connection ~ 8200 2250
-Wire Wire Line
-	8200 2250 7300 2250
-Wire Wire Line
-	8700 2350 8200 2350
 Connection ~ 7300 2350
-Connection ~ 8200 2350
-Wire Wire Line
-	8200 2350 7300 2350
-Wire Wire Line
-	8700 2450 8200 2450
 Connection ~ 7300 2450
-Connection ~ 8200 2450
-Wire Wire Line
-	8200 2450 7300 2450
 Wire Wire Line
 	6800 2550 6800 2600
 Wire Wire Line
 	6800 2600 7350 2600
 Wire Wire Line
 	7350 2600 7350 2550
-Wire Wire Line
-	7350 2550 8200 2550
-Connection ~ 8200 2550
-Wire Wire Line
-	8200 2550 8700 2550
-Wire Wire Line
-	8700 2650 8200 2650
-Connection ~ 7300 2650
-Connection ~ 8200 2650
-Wire Wire Line
-	8200 2650 7300 2650
-$Comp
-L Connector_Generic:Conn_02x06_Row_Letter_Last J5
-U 1 1 5C3E925F
-P 2600 2350
-F 0 "J5" H 2650 2767 50  0000 C CNN
-F 1 "Conn_Output" H 2650 2676 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x06_Pitch2.54mm" H 2600 2350 50  0001 C CNN
-F 3 "~" H 2600 2350 50  0001 C CNN
-	1    2600 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 2150 2900 2150
 Connection ~ 3800 2150
-Connection ~ 2900 2150
-Wire Wire Line
-	2900 2150 3800 2150
-Wire Wire Line
-	2400 2250 2900 2250
 Connection ~ 3800 2250
-Connection ~ 2900 2250
-Wire Wire Line
-	2900 2250 3800 2250
-Wire Wire Line
-	2400 2350 2900 2350
 Connection ~ 3800 2350
-Connection ~ 2900 2350
-Wire Wire Line
-	2900 2350 3800 2350
-Wire Wire Line
-	2400 2450 2900 2450
 Connection ~ 3800 2450
-Connection ~ 2900 2450
-Wire Wire Line
-	2900 2450 3800 2450
 Wire Wire Line
 	4300 2550 4300 2600
 Wire Wire Line
 	4300 2600 3750 2600
 Wire Wire Line
 	3750 2600 3750 2550
-Wire Wire Line
-	3750 2550 2900 2550
-Wire Wire Line
-	2400 2550 2900 2550
-Connection ~ 2900 2550
-Wire Wire Line
-	2400 2650 2900 2650
-Connection ~ 3800 2650
-Connection ~ 2900 2650
-Wire Wire Line
-	2900 2650 3800 2650
 Text Label 6800 3250 2    50   ~ 0
 A0
 Text Label 6800 3150 2    50   ~ 0
@@ -318,35 +235,27 @@ NoConn ~ 3800 2750
 $Comp
 L power:VCC #PWR09
 U 1 1 5C458F94
-P 8850 1950
-F 0 "#PWR09" H 8850 1800 50  0001 C CNN
-F 1 "VCC" H 8867 2123 50  0000 C CNN
-F 2 "" H 8850 1950 50  0001 C CNN
-F 3 "" H 8850 1950 50  0001 C CNN
-	1    8850 1950
+P 8200 1950
+F 0 "#PWR09" H 8200 1800 50  0001 C CNN
+F 1 "VCC" H 8217 2123 50  0000 C CNN
+F 2 "" H 8200 1950 50  0001 C CNN
+F 3 "" H 8200 1950 50  0001 C CNN
+	1    8200 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5C459007
-P 8850 2850
-F 0 "#PWR010" H 8850 2600 50  0001 C CNN
-F 1 "GND" H 8855 2677 50  0000 C CNN
-F 2 "" H 8850 2850 50  0001 C CNN
-F 3 "" H 8850 2850 50  0001 C CNN
-	1    8850 2850
+P 8200 3450
+F 0 "#PWR010" H 8200 3200 50  0001 C CNN
+F 1 "GND" H 8205 3277 50  0000 C CNN
+F 2 "" H 8200 3450 50  0001 C CNN
+F 3 "" H 8200 3450 50  0001 C CNN
+	1    8200 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 2150 8850 2150
-Wire Wire Line
-	8850 2150 8850 1950
-Connection ~ 8700 2150
-Wire Wire Line
-	8700 2650 8850 2650
-Wire Wire Line
-	8850 2650 8850 2850
-Connection ~ 8700 2650
+	8200 2150 8200 1950
 Text Label 6300 3250 0    50   ~ 0
 B2
 Text Label 6300 3150 0    50   ~ 0
@@ -989,4 +898,113 @@ F 3 "~" H 1650 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1650 2650
+Wire Wire Line
+	7300 2150 8200 2150
+$Comp
+L Connector_Generic:Conn_02x12_Row_Letter_Last J4
+U 1 1 5C481A6C
+P 8750 2650
+F 0 "J4" H 8800 3367 50  0000 C CNN
+F 1 "Conn_02x12_Row_Letter_Last" H 8800 3276 50  0000 C CNN
+F 2 "" H 8750 2650 50  0001 C CNN
+F 3 "~" H 8750 2650 50  0001 C CNN
+	1    8750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2650 8200 2650
+Wire Wire Line
+	8200 2650 8200 3250
+Connection ~ 7300 2650
+Connection ~ 8550 3250
+Wire Wire Line
+	8550 3250 9050 3250
+Wire Wire Line
+	7350 2550 8300 2550
+Wire Wire Line
+	8300 2550 8300 3050
+Wire Wire Line
+	8300 3050 8550 3050
+Connection ~ 8550 3050
+Wire Wire Line
+	8550 3050 9050 3050
+Wire Wire Line
+	7300 2450 8550 2450
+Connection ~ 8550 2450
+Wire Wire Line
+	8550 2450 9050 2450
+Wire Wire Line
+	7300 2350 8550 2350
+Connection ~ 8550 2350
+Wire Wire Line
+	8550 2350 9050 2350
+Wire Wire Line
+	7300 2250 8550 2250
+Connection ~ 8550 2250
+Wire Wire Line
+	8550 2250 9050 2250
+Wire Wire Line
+	9050 2150 8550 2150
+Connection ~ 8200 2150
+Connection ~ 8550 2150
+Wire Wire Line
+	8550 2150 8200 2150
+Wire Wire Line
+	8200 3250 8200 3450
+Connection ~ 8200 3250
+Wire Wire Line
+	8200 3250 8550 3250
+Connection ~ 8200 3450
+Wire Wire Line
+	8200 3450 8200 3550
+$Comp
+L Connector_Generic:Conn_02x12_Row_Letter_Last J5
+U 1 1 5C4ACF80
+P 2600 2650
+F 0 "J5" H 2650 3367 50  0000 C CNN
+F 1 "Conn_02x12_Row_Letter_Last" H 2650 3276 50  0000 C CNN
+F 2 "" H 2600 2650 50  0001 C CNN
+F 3 "~" H 2600 2650 50  0001 C CNN
+	1    2600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2150 3800 2150
+Wire Wire Line
+	2900 2350 3800 2350
+Wire Wire Line
+	2900 2450 3800 2450
+Wire Wire Line
+	2400 2150 2900 2150
+Connection ~ 2900 2150
+Wire Wire Line
+	2400 2250 2900 2250
+Connection ~ 2900 2250
+Wire Wire Line
+	2900 2250 3800 2250
+Wire Wire Line
+	2400 2350 2900 2350
+Connection ~ 2900 2350
+Wire Wire Line
+	2400 2450 2900 2450
+Connection ~ 2900 2450
+Wire Wire Line
+	3750 2550 3500 2550
+Wire Wire Line
+	3800 2650 3600 2650
+Wire Wire Line
+	3600 2650 3600 3250
+Wire Wire Line
+	3600 3250 2900 3250
+Connection ~ 3800 2650
+Connection ~ 2900 3250
+Wire Wire Line
+	2900 3250 2400 3250
+Wire Wire Line
+	3500 2550 3500 3050
+Wire Wire Line
+	3500 3050 2900 3050
+Connection ~ 2900 3050
+Wire Wire Line
+	2900 3050 2400 3050
 $EndSCHEMATC
