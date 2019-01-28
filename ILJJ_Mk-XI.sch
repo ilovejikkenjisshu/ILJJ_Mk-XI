@@ -229,138 +229,138 @@ S7
 $Comp
 L Switch:SW_Coded_SH-7070 SW3
 U 1 1 5C45E6EE
-P 3200 5400
-F 0 "SW3" H 3255 5867 50  0000 C CNN
-F 1 "SW_Coded_SH-7070" H 3255 5776 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 2900 4950 50  0001 L CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 3200 5400 50  0001 C CNN
-	1    3200 5400
+P 3000 5200
+F 0 "SW3" H 3055 5667 50  0000 C CNN
+F 1 "SW_Coded_SH-7070" H 3055 5576 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 2700 4750 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 3000 5200 50  0001 C CNN
+	1    3000 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Coded_SH-7070 SW2
 U 1 1 5C45E76C
-P 4300 5400
-F 0 "SW2" H 4355 5867 50  0000 C CNN
-F 1 "SW_Coded_SH-7070" H 4355 5776 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 4000 4950 50  0001 L CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 4300 5400 50  0001 C CNN
-	1    4300 5400
+P 4100 5200
+F 0 "SW2" H 4155 5667 50  0000 C CNN
+F 1 "SW_Coded_SH-7070" H 4155 5576 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 3800 4750 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 4100 5200 50  0001 C CNN
+	1    4100 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Coded_SH-7070 SW1
 U 1 1 5C45E8D1
-P 3200 4400
-F 0 "SW1" H 3255 4867 50  0000 C CNN
-F 1 "SW_Coded_SH-7070" H 3255 4776 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 2900 3950 50  0001 L CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 3200 4400 50  0001 C CNN
-	1    3200 4400
+P 3000 4200
+F 0 "SW1" H 3055 4667 50  0000 C CNN
+F 1 "SW_Coded_SH-7070" H 3055 4576 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 2700 3750 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 3000 4200 50  0001 C CNN
+	1    3000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Coded_SH-7070 SW0
 U 1 1 5C45E911
-P 4300 4400
-F 0 "SW0" H 4355 4867 50  0000 C CNN
-F 1 "SW_Coded_SH-7070" H 4355 4776 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 4000 3950 50  0001 L CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 4300 4400 50  0001 C CNN
-	1    4300 4400
+P 4100 4200
+F 0 "SW0" H 4155 4667 50  0000 C CNN
+F 1 "SW_Coded_SH-7070" H 4155 4576 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:Nidec_Copal_SH-7010C" H 3800 3750 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 4100 4200 50  0001 C CNN
+	1    4100 4200
 	1    0    0    -1  
 $EndComp
-Text Label 4700 4300 0    50   ~ 0
+Text Label 4500 4100 0    50   ~ 0
 A0
-Text Label 4700 4400 0    50   ~ 0
+Text Label 4500 4200 0    50   ~ 0
 A1
-Text Label 4700 4500 0    50   ~ 0
+Text Label 4500 4300 0    50   ~ 0
 A2
-Text Label 4700 4600 0    50   ~ 0
+Text Label 4500 4400 0    50   ~ 0
 A3
-Text Label 3600 4400 0    50   ~ 0
+Text Label 3400 4200 0    50   ~ 0
 A5
-Text Label 3600 4500 0    50   ~ 0
+Text Label 3400 4300 0    50   ~ 0
 A6
-Text Label 3600 4600 0    50   ~ 0
+Text Label 3400 4400 0    50   ~ 0
 A7
-Text Label 3600 4300 0    50   ~ 0
+Text Label 3400 4100 0    50   ~ 0
 A4
 $Comp
 L power:GND #PWR02
 U 1 1 5C46834D
-P 3800 4350
-F 0 "#PWR02" H 3800 4100 50  0001 C CNN
-F 1 "GND" H 3805 4177 50  0000 C CNN
-F 2 "" H 3800 4350 50  0001 C CNN
-F 3 "" H 3800 4350 50  0001 C CNN
-	1    3800 4350
+P 3600 4150
+F 0 "#PWR02" H 3600 3900 50  0001 C CNN
+F 1 "GND" H 3605 3977 50  0000 C CNN
+F 2 "" H 3600 4150 50  0001 C CNN
+F 3 "" H 3600 4150 50  0001 C CNN
+	1    3600 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4200 3800 4200
+	3400 4000 3600 4000
 Wire Wire Line
-	3800 4200 3800 4350
+	3600 4000 3600 4150
 $Comp
 L power:GND #PWR04
 U 1 1 5C46AA23
-P 4900 4350
-F 0 "#PWR04" H 4900 4100 50  0001 C CNN
-F 1 "GND" H 4905 4177 50  0000 C CNN
-F 2 "" H 4900 4350 50  0001 C CNN
-F 3 "" H 4900 4350 50  0001 C CNN
-	1    4900 4350
+P 4700 4150
+F 0 "#PWR04" H 4700 3900 50  0001 C CNN
+F 1 "GND" H 4705 3977 50  0000 C CNN
+F 2 "" H 4700 4150 50  0001 C CNN
+F 3 "" H 4700 4150 50  0001 C CNN
+	1    4700 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5C46AA42
-P 3800 5350
-F 0 "#PWR03" H 3800 5100 50  0001 C CNN
-F 1 "GND" H 3805 5177 50  0000 C CNN
-F 2 "" H 3800 5350 50  0001 C CNN
-F 3 "" H 3800 5350 50  0001 C CNN
-	1    3800 5350
+P 3600 5150
+F 0 "#PWR03" H 3600 4900 50  0001 C CNN
+F 1 "GND" H 3605 4977 50  0000 C CNN
+F 2 "" H 3600 5150 50  0001 C CNN
+F 3 "" H 3600 5150 50  0001 C CNN
+	1    3600 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5C46AA61
-P 4900 5350
-F 0 "#PWR05" H 4900 5100 50  0001 C CNN
-F 1 "GND" H 4905 5177 50  0000 C CNN
-F 2 "" H 4900 5350 50  0001 C CNN
-F 3 "" H 4900 5350 50  0001 C CNN
-	1    4900 5350
+P 4700 5150
+F 0 "#PWR05" H 4700 4900 50  0001 C CNN
+F 1 "GND" H 4705 4977 50  0000 C CNN
+F 2 "" H 4700 5150 50  0001 C CNN
+F 3 "" H 4700 5150 50  0001 C CNN
+	1    4700 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 5200 3800 5200
+	3400 5000 3600 5000
 Wire Wire Line
-	3800 5200 3800 5350
+	3600 5000 3600 5150
 Wire Wire Line
-	4700 4200 4900 4200
+	4500 4000 4700 4000
 Wire Wire Line
-	4900 4200 4900 4350
+	4700 4000 4700 4150
 Wire Wire Line
-	4700 5200 4900 5200
+	4500 5000 4700 5000
 Wire Wire Line
-	4900 5200 4900 5350
-Text Label 4700 5300 0    50   ~ 0
+	4700 5000 4700 5150
+Text Label 4500 5100 0    50   ~ 0
 B0
-Text Label 4700 5400 0    50   ~ 0
+Text Label 4500 5200 0    50   ~ 0
 B1
-Text Label 4700 5500 0    50   ~ 0
+Text Label 4500 5300 0    50   ~ 0
 B2
-Text Label 4700 5600 0    50   ~ 0
+Text Label 4500 5400 0    50   ~ 0
 B3
-Text Label 3600 5300 0    50   ~ 0
+Text Label 3400 5100 0    50   ~ 0
 B4
-Text Label 3600 5400 0    50   ~ 0
+Text Label 3400 5200 0    50   ~ 0
 B5
-Text Label 3600 5500 0    50   ~ 0
+Text Label 3400 5300 0    50   ~ 0
 B6
-Text Label 3600 5600 0    50   ~ 0
+Text Label 3400 5400 0    50   ~ 0
 B7
 $Comp
 L power:GND #PWR07
@@ -923,245 +923,245 @@ Wire Wire Line
 $Comp
 L 74xx:7400 U1
 U 1 1 5C578E88
-P 5600 4250
-F 0 "U1" H 5600 4575 50  0000 C CNN
-F 1 "7400" H 5600 4484 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5600 4250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 5600 4250 50  0001 C CNN
-	1    5600 4250
+P 5400 4050
+F 0 "U1" H 5400 4375 50  0000 C CNN
+F 1 "7400" H 5400 4284 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5400 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5400 4050 50  0001 C CNN
+	1    5400 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U1
 U 2 1 5C578F10
-P 6200 4250
-F 0 "U1" H 6200 4575 50  0000 C CNN
-F 1 "7400" H 6200 4484 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6200 4250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 6200 4250 50  0001 C CNN
-	2    6200 4250
+P 6000 4050
+F 0 "U1" H 6000 4375 50  0000 C CNN
+F 1 "7400" H 6000 4284 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6000 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6000 4050 50  0001 C CNN
+	2    6000 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U2
 U 1 1 5C57902C
-P 5600 4900
-F 0 "U2" H 5600 5225 50  0000 C CNN
-F 1 "7400" H 5600 5134 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5600 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 5600 4900 50  0001 C CNN
-	1    5600 4900
+P 5400 4700
+F 0 "U2" H 5400 5025 50  0000 C CNN
+F 1 "7400" H 5400 4934 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5400 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5400 4700 50  0001 C CNN
+	1    5400 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U2
 U 2 1 5C579033
-P 6200 4900
-F 0 "U2" H 6200 5225 50  0000 C CNN
-F 1 "7400" H 6200 5134 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6200 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 6200 4900 50  0001 C CNN
-	2    6200 4900
+P 6000 4700
+F 0 "U2" H 6000 5025 50  0000 C CNN
+F 1 "7400" H 6000 4934 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6000 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6000 4700 50  0001 C CNN
+	2    6000 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U3
 U 1 1 5C57B36D
-P 5600 5500
-F 0 "U3" H 5600 5825 50  0000 C CNN
-F 1 "7400" H 5600 5734 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5600 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 5600 5500 50  0001 C CNN
-	1    5600 5500
+P 5400 5300
+F 0 "U3" H 5400 5625 50  0000 C CNN
+F 1 "7400" H 5400 5534 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5400 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5400 5300 50  0001 C CNN
+	1    5400 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U3
 U 2 1 5C57B374
-P 6200 5500
-F 0 "U3" H 6200 5825 50  0000 C CNN
-F 1 "7400" H 6200 5734 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6200 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 6200 5500 50  0001 C CNN
-	2    6200 5500
+P 6000 5300
+F 0 "U3" H 6000 5625 50  0000 C CNN
+F 1 "7400" H 6000 5534 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6000 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6000 5300 50  0001 C CNN
+	2    6000 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U1
 U 3 1 5C57D6B2
-P 7000 4250
-F 0 "U1" H 7000 4575 50  0000 C CNN
-F 1 "7400" H 7000 4484 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7000 4250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 7000 4250 50  0001 C CNN
-	3    7000 4250
+P 6800 4050
+F 0 "U1" H 6800 4375 50  0000 C CNN
+F 1 "7400" H 6800 4284 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6800 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6800 4050 50  0001 C CNN
+	3    6800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U1
 U 4 1 5C57D6B9
-P 7600 4250
-F 0 "U1" H 7600 4575 50  0000 C CNN
-F 1 "7400" H 7600 4484 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7600 4250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 7600 4250 50  0001 C CNN
-	4    7600 4250
+P 7400 4050
+F 0 "U1" H 7400 4375 50  0000 C CNN
+F 1 "7400" H 7400 4284 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7400 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 7400 4050 50  0001 C CNN
+	4    7400 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U2
 U 3 1 5C58418B
-P 7000 4900
-F 0 "U2" H 7000 5225 50  0000 C CNN
-F 1 "7400" H 7000 5134 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7000 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 7000 4900 50  0001 C CNN
-	3    7000 4900
+P 6800 4700
+F 0 "U2" H 6800 5025 50  0000 C CNN
+F 1 "7400" H 6800 4934 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6800 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6800 4700 50  0001 C CNN
+	3    6800 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U2
 U 4 1 5C584192
-P 7600 4900
-F 0 "U2" H 7600 5225 50  0000 C CNN
-F 1 "7400" H 7600 5134 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7600 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 7600 4900 50  0001 C CNN
-	4    7600 4900
+P 7400 4700
+F 0 "U2" H 7400 5025 50  0000 C CNN
+F 1 "7400" H 7400 4934 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7400 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 7400 4700 50  0001 C CNN
+	4    7400 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U3
 U 3 1 5C5864CC
-P 7000 5500
-F 0 "U3" H 7000 5825 50  0000 C CNN
-F 1 "7400" H 7000 5734 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7000 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 7000 5500 50  0001 C CNN
-	3    7000 5500
+P 6800 5300
+F 0 "U3" H 6800 5625 50  0000 C CNN
+F 1 "7400" H 6800 5534 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6800 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6800 5300 50  0001 C CNN
+	3    6800 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U3
 U 4 1 5C5864D3
-P 7600 5500
-F 0 "U3" H 7600 5825 50  0000 C CNN
-F 1 "7400" H 7600 5734 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7600 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7400" H 7600 5500 50  0001 C CNN
-	4    7600 5500
+P 7400 5300
+F 0 "U3" H 7400 5625 50  0000 C CNN
+F 1 "7400" H 7400 5534 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7400 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 7400 5300 50  0001 C CNN
+	4    7400 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 4150 5900 4250
-Connection ~ 5900 4250
+	5700 3950 5700 4050
+Connection ~ 5700 4050
 Wire Wire Line
-	5900 4250 5900 4350
+	5700 4050 5700 4150
 Wire Wire Line
-	5900 4800 5900 4900
-Connection ~ 5900 4900
+	5700 4600 5700 4700
+Connection ~ 5700 4700
 Wire Wire Line
-	5900 4900 5900 5000
+	5700 4700 5700 4800
 Wire Wire Line
-	5900 5400 5900 5500
-Connection ~ 5900 5500
+	5700 5200 5700 5300
+Connection ~ 5700 5300
 Wire Wire Line
-	5900 5500 5900 5600
+	5700 5300 5700 5400
 Wire Wire Line
-	7300 5400 7300 5500
-Connection ~ 7300 5500
+	7100 5200 7100 5300
+Connection ~ 7100 5300
 Wire Wire Line
-	7300 5500 7300 5600
+	7100 5300 7100 5400
 Wire Wire Line
-	7300 4800 7300 4900
-Connection ~ 7300 4900
+	7100 4600 7100 4700
+Connection ~ 7100 4700
 Wire Wire Line
-	7300 4900 7300 5000
+	7100 4700 7100 4800
 Wire Wire Line
-	7300 4150 7300 4250
-Connection ~ 7300 4250
+	7100 3950 7100 4050
+Connection ~ 7100 4050
 Wire Wire Line
-	7300 4250 7300 4350
+	7100 4050 7100 4150
 Text Label 9050 2250 0    50   ~ 0
 F2
 Wire Wire Line
-	6700 4150 6700 4250
+	6500 3950 6500 4050
 Wire Wire Line
-	6500 4250 6600 4250
-Connection ~ 6700 4250
+	6300 4050 6400 4050
+Connection ~ 6500 4050
 Wire Wire Line
-	6700 4250 6700 4350
+	6500 4050 6500 4150
 Wire Wire Line
-	6700 4800 6700 4900
+	6500 4600 6500 4700
 Wire Wire Line
-	6500 4900 6600 4900
-Connection ~ 6700 4900
+	6300 4700 6400 4700
+Connection ~ 6500 4700
 Wire Wire Line
-	6700 4900 6700 5000
+	6500 4700 6500 4800
 Wire Wire Line
-	6700 5400 6700 5500
+	6500 5200 6500 5300
 Wire Wire Line
-	6500 5500 6600 5500
-Connection ~ 6700 5500
+	6300 5300 6400 5300
+Connection ~ 6500 5300
 Wire Wire Line
-	6700 5500 6700 5600
+	6500 5300 6500 5400
 Wire Wire Line
-	5300 4150 5300 4250
+	5100 3950 5100 4050
 Wire Wire Line
-	5300 4800 5300 4900
+	5100 4600 5100 4700
 Wire Wire Line
-	5300 5400 5300 5500
+	5100 5200 5100 5300
 Text Label 9050 2350 0    50   ~ 0
 F1
 Text Label 9050 2450 0    50   ~ 0
 F0
 Wire Wire Line
-	5300 4250 5200 4250
-Connection ~ 5300 4250
+	5100 4050 5000 4050
+Connection ~ 5100 4050
 Wire Wire Line
-	5300 4250 5300 4350
-Text Label 5200 4250 2    50   ~ 0
+	5100 4050 5100 4150
+Text Label 5000 4050 2    50   ~ 0
 F2
-Text Label 5200 4900 2    50   ~ 0
+Text Label 5000 4700 2    50   ~ 0
 F1
 Wire Wire Line
-	5300 4900 5200 4900
-Connection ~ 5300 4900
+	5100 4700 5000 4700
+Connection ~ 5100 4700
 Wire Wire Line
-	5300 4900 5300 5000
+	5100 4700 5100 4800
 Wire Wire Line
-	5300 5500 5200 5500
-Connection ~ 5300 5500
+	5100 5300 5000 5300
+Connection ~ 5100 5300
 Wire Wire Line
-	5300 5500 5300 5600
-Text Label 5200 5500 2    50   ~ 0
+	5100 5300 5100 5400
+Text Label 5000 5300 2    50   ~ 0
 F0
 Wire Wire Line
-	6600 4250 6600 4150
-Connection ~ 6600 4250
+	6400 4050 6400 3950
+Connection ~ 6400 4050
 Wire Wire Line
-	6600 4250 6700 4250
+	6400 4050 6500 4050
 Wire Wire Line
-	6600 4900 6600 4800
-Connection ~ 6600 4900
+	6400 4700 6400 4600
+Connection ~ 6400 4700
 Wire Wire Line
-	6600 4900 6700 4900
+	6400 4700 6500 4700
 Wire Wire Line
-	6600 5500 6600 5400
-Connection ~ 6600 5500
+	6400 5300 6400 5200
+Connection ~ 6400 5300
 Wire Wire Line
-	6600 5500 6700 5500
-Text Label 6600 4150 1    50   ~ 0
+	6400 5300 6500 5300
+Text Label 6400 3950 1    50   ~ 0
 F2_1
-Text Label 7900 4250 0    50   ~ 0
+Text Label 7700 4050 0    50   ~ 0
 F2_2
-Text Label 6600 4800 1    50   ~ 0
+Text Label 6400 4600 1    50   ~ 0
 F1_1
-Text Label 7900 4900 0    50   ~ 0
+Text Label 7700 4700 0    50   ~ 0
 F1_2
-Text Label 6600 5400 1    50   ~ 0
+Text Label 6400 5200 1    50   ~ 0
 F0_1
-Text Label 7900 5500 0    50   ~ 0
+Text Label 7700 5300 0    50   ~ 0
 F0_2
 Wire Wire Line
 	5800 2250 6300 2250
@@ -1241,4 +1241,564 @@ Text Label 5400 2450 0    50   ~ 0
 F0_2
 Text Label 5400 2350 0    50   ~ 0
 F1_2
+$Comp
+L Device:LED D5
+U 1 1 5C57B263
+P 2950 6200
+F 0 "D5" V 2988 6083 50  0000 R CNN
+F 1 "LED" V 2897 6083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 2950 6200 50  0001 C CNN
+F 3 "~" H 2950 6200 50  0001 C CNN
+	1    2950 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5C57B51F
+P 2950 6350
+F 0 "#PWR0101" H 2950 6100 50  0001 C CNN
+F 1 "GND" H 2955 6177 50  0000 C CNN
+F 2 "" H 2950 6350 50  0001 C CNN
+F 3 "" H 2950 6350 50  0001 C CNN
+	1    2950 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5C581460
+P 2950 5900
+F 0 "R21" H 3020 5946 50  0000 L CNN
+F 1 "R" H 3020 5855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2880 5900 50  0001 C CNN
+F 3 "~" H 2950 5900 50  0001 C CNN
+	1    2950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5C5878C9
+P 3300 6200
+F 0 "D6" V 3338 6083 50  0000 R CNN
+F 1 "LED" V 3247 6083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 3300 6200 50  0001 C CNN
+F 3 "~" H 3300 6200 50  0001 C CNN
+	1    3300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C5878D0
+P 3300 6350
+F 0 "#PWR0102" H 3300 6100 50  0001 C CNN
+F 1 "GND" H 3305 6177 50  0000 C CNN
+F 2 "" H 3300 6350 50  0001 C CNN
+F 3 "" H 3300 6350 50  0001 C CNN
+	1    3300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5C5878D6
+P 3300 5900
+F 0 "R22" H 3370 5946 50  0000 L CNN
+F 1 "R" H 3370 5855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3230 5900 50  0001 C CNN
+F 3 "~" H 3300 5900 50  0001 C CNN
+	1    3300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5C58D760
+P 3650 6200
+F 0 "D7" V 3688 6083 50  0000 R CNN
+F 1 "LED" V 3597 6083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 3650 6200 50  0001 C CNN
+F 3 "~" H 3650 6200 50  0001 C CNN
+	1    3650 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5C58D767
+P 3650 6350
+F 0 "#PWR0103" H 3650 6100 50  0001 C CNN
+F 1 "GND" H 3655 6177 50  0000 C CNN
+F 2 "" H 3650 6350 50  0001 C CNN
+F 3 "" H 3650 6350 50  0001 C CNN
+	1    3650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5C58D76D
+P 3650 5900
+F 0 "R23" H 3720 5946 50  0000 L CNN
+F 1 "R" H 3720 5855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3580 5900 50  0001 C CNN
+F 3 "~" H 3650 5900 50  0001 C CNN
+	1    3650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 5C5935EF
+P 4000 6200
+F 0 "D8" V 4038 6083 50  0000 R CNN
+F 1 "LED" V 3947 6083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 4000 6200 50  0001 C CNN
+F 3 "~" H 4000 6200 50  0001 C CNN
+	1    4000 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5C5935F6
+P 4000 6350
+F 0 "#PWR0104" H 4000 6100 50  0001 C CNN
+F 1 "GND" H 4005 6177 50  0000 C CNN
+F 2 "" H 4000 6350 50  0001 C CNN
+F 3 "" H 4000 6350 50  0001 C CNN
+	1    4000 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5C5935FC
+P 4000 5900
+F 0 "R24" H 4070 5946 50  0000 L CNN
+F 1 "R" H 4070 5855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3930 5900 50  0001 C CNN
+F 3 "~" H 4000 5900 50  0001 C CNN
+	1    4000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 5C599472
+P 4350 6200
+F 0 "D9" V 4388 6083 50  0000 R CNN
+F 1 "LED" V 4297 6083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 4350 6200 50  0001 C CNN
+F 3 "~" H 4350 6200 50  0001 C CNN
+	1    4350 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C599479
+P 4350 6350
+F 0 "#PWR0105" H 4350 6100 50  0001 C CNN
+F 1 "GND" H 4355 6177 50  0000 C CNN
+F 2 "" H 4350 6350 50  0001 C CNN
+F 3 "" H 4350 6350 50  0001 C CNN
+	1    4350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5C59947F
+P 4350 5900
+F 0 "R25" H 4420 5946 50  0000 L CNN
+F 1 "R" H 4420 5855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4280 5900 50  0001 C CNN
+F 3 "~" H 4350 5900 50  0001 C CNN
+	1    4350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 5C59F2F7
+P 4700 6200
+F 0 "D10" V 4738 6083 50  0000 R CNN
+F 1 "LED" V 4647 6083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 4700 6200 50  0001 C CNN
+F 3 "~" H 4700 6200 50  0001 C CNN
+	1    4700 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5C59F2FE
+P 4700 6350
+F 0 "#PWR0106" H 4700 6100 50  0001 C CNN
+F 1 "GND" H 4705 6177 50  0000 C CNN
+F 2 "" H 4700 6350 50  0001 C CNN
+F 3 "" H 4700 6350 50  0001 C CNN
+	1    4700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5C59F304
+P 4700 5900
+F 0 "R26" H 4770 5946 50  0000 L CNN
+F 1 "R" H 4770 5855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4630 5900 50  0001 C CNN
+F 3 "~" H 4700 5900 50  0001 C CNN
+	1    4700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 5C5A517E
+P 5050 6200
+F 0 "D11" V 5088 6083 50  0000 R CNN
+F 1 "LED" V 4997 6083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 5050 6200 50  0001 C CNN
+F 3 "~" H 5050 6200 50  0001 C CNN
+	1    5050 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5C5A5185
+P 5050 6350
+F 0 "#PWR0107" H 5050 6100 50  0001 C CNN
+F 1 "GND" H 5055 6177 50  0000 C CNN
+F 2 "" H 5050 6350 50  0001 C CNN
+F 3 "" H 5050 6350 50  0001 C CNN
+	1    5050 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5C5A518B
+P 5050 5900
+F 0 "R27" H 5120 5946 50  0000 L CNN
+F 1 "R" H 5120 5855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4980 5900 50  0001 C CNN
+F 3 "~" H 5050 5900 50  0001 C CNN
+	1    5050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 5C5AB007
+P 5400 6200
+F 0 "D12" V 5438 6083 50  0000 R CNN
+F 1 "LED" V 5347 6083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 5400 6200 50  0001 C CNN
+F 3 "~" H 5400 6200 50  0001 C CNN
+	1    5400 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C5AB00E
+P 5400 6350
+F 0 "#PWR0108" H 5400 6100 50  0001 C CNN
+F 1 "GND" H 5405 6177 50  0000 C CNN
+F 2 "" H 5400 6350 50  0001 C CNN
+F 3 "" H 5400 6350 50  0001 C CNN
+	1    5400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5C5AB014
+P 5400 5900
+F 0 "R28" H 5470 5946 50  0000 L CNN
+F 1 "R" H 5470 5855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5330 5900 50  0001 C CNN
+F 3 "~" H 5400 5900 50  0001 C CNN
+	1    5400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 5C5B1368
+P 2950 7200
+F 0 "D13" V 2988 7083 50  0000 R CNN
+F 1 "LED" V 2897 7083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 2950 7200 50  0001 C CNN
+F 3 "~" H 2950 7200 50  0001 C CNN
+	1    2950 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5C5B136F
+P 2950 7350
+F 0 "#PWR0109" H 2950 7100 50  0001 C CNN
+F 1 "GND" H 2955 7177 50  0000 C CNN
+F 2 "" H 2950 7350 50  0001 C CNN
+F 3 "" H 2950 7350 50  0001 C CNN
+	1    2950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5C5B1375
+P 2950 6900
+F 0 "R29" H 3020 6946 50  0000 L CNN
+F 1 "R" H 3020 6855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2880 6900 50  0001 C CNN
+F 3 "~" H 2950 6900 50  0001 C CNN
+	1    2950 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 5C5B137C
+P 3300 7200
+F 0 "D14" V 3338 7083 50  0000 R CNN
+F 1 "LED" V 3247 7083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 3300 7200 50  0001 C CNN
+F 3 "~" H 3300 7200 50  0001 C CNN
+	1    3300 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5C5B1383
+P 3300 7350
+F 0 "#PWR0110" H 3300 7100 50  0001 C CNN
+F 1 "GND" H 3305 7177 50  0000 C CNN
+F 2 "" H 3300 7350 50  0001 C CNN
+F 3 "" H 3300 7350 50  0001 C CNN
+	1    3300 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 5C5B1389
+P 3300 6900
+F 0 "R30" H 3370 6946 50  0000 L CNN
+F 1 "R" H 3370 6855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3230 6900 50  0001 C CNN
+F 3 "~" H 3300 6900 50  0001 C CNN
+	1    3300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 5C5B1390
+P 3650 7200
+F 0 "D15" V 3688 7083 50  0000 R CNN
+F 1 "LED" V 3597 7083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 3650 7200 50  0001 C CNN
+F 3 "~" H 3650 7200 50  0001 C CNN
+	1    3650 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5C5B1397
+P 3650 7350
+F 0 "#PWR0111" H 3650 7100 50  0001 C CNN
+F 1 "GND" H 3655 7177 50  0000 C CNN
+F 2 "" H 3650 7350 50  0001 C CNN
+F 3 "" H 3650 7350 50  0001 C CNN
+	1    3650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5C5B139D
+P 3650 6900
+F 0 "R31" H 3720 6946 50  0000 L CNN
+F 1 "R" H 3720 6855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3580 6900 50  0001 C CNN
+F 3 "~" H 3650 6900 50  0001 C CNN
+	1    3650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 5C5B13A4
+P 4000 7200
+F 0 "D16" V 4038 7083 50  0000 R CNN
+F 1 "LED" V 3947 7083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 4000 7200 50  0001 C CNN
+F 3 "~" H 4000 7200 50  0001 C CNN
+	1    4000 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5C5B13AB
+P 4000 7350
+F 0 "#PWR0112" H 4000 7100 50  0001 C CNN
+F 1 "GND" H 4005 7177 50  0000 C CNN
+F 2 "" H 4000 7350 50  0001 C CNN
+F 3 "" H 4000 7350 50  0001 C CNN
+	1    4000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 5C5B13B1
+P 4000 6900
+F 0 "R32" H 4070 6946 50  0000 L CNN
+F 1 "R" H 4070 6855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3930 6900 50  0001 C CNN
+F 3 "~" H 4000 6900 50  0001 C CNN
+	1    4000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 5C5B13B8
+P 4350 7200
+F 0 "D17" V 4388 7083 50  0000 R CNN
+F 1 "LED" V 4297 7083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 4350 7200 50  0001 C CNN
+F 3 "~" H 4350 7200 50  0001 C CNN
+	1    4350 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5C5B13BF
+P 4350 7350
+F 0 "#PWR0113" H 4350 7100 50  0001 C CNN
+F 1 "GND" H 4355 7177 50  0000 C CNN
+F 2 "" H 4350 7350 50  0001 C CNN
+F 3 "" H 4350 7350 50  0001 C CNN
+	1    4350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 5C5B13C5
+P 4350 6900
+F 0 "R33" H 4420 6946 50  0000 L CNN
+F 1 "R" H 4420 6855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4280 6900 50  0001 C CNN
+F 3 "~" H 4350 6900 50  0001 C CNN
+	1    4350 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 5C5B13CC
+P 4700 7200
+F 0 "D18" V 4738 7083 50  0000 R CNN
+F 1 "LED" V 4647 7083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 4700 7200 50  0001 C CNN
+F 3 "~" H 4700 7200 50  0001 C CNN
+	1    4700 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5C5B13D3
+P 4700 7350
+F 0 "#PWR0114" H 4700 7100 50  0001 C CNN
+F 1 "GND" H 4705 7177 50  0000 C CNN
+F 2 "" H 4700 7350 50  0001 C CNN
+F 3 "" H 4700 7350 50  0001 C CNN
+	1    4700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5C5B13D9
+P 4700 6900
+F 0 "R34" H 4770 6946 50  0000 L CNN
+F 1 "R" H 4770 6855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4630 6900 50  0001 C CNN
+F 3 "~" H 4700 6900 50  0001 C CNN
+	1    4700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D19
+U 1 1 5C5B13E0
+P 5050 7200
+F 0 "D19" V 5088 7083 50  0000 R CNN
+F 1 "LED" V 4997 7083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 5050 7200 50  0001 C CNN
+F 3 "~" H 5050 7200 50  0001 C CNN
+	1    5050 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5C5B13E7
+P 5050 7350
+F 0 "#PWR0115" H 5050 7100 50  0001 C CNN
+F 1 "GND" H 5055 7177 50  0000 C CNN
+F 2 "" H 5050 7350 50  0001 C CNN
+F 3 "" H 5050 7350 50  0001 C CNN
+	1    5050 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5C5B13ED
+P 5050 6900
+F 0 "R35" H 5120 6946 50  0000 L CNN
+F 1 "R" H 5120 6855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4980 6900 50  0001 C CNN
+F 3 "~" H 5050 6900 50  0001 C CNN
+	1    5050 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D20
+U 1 1 5C5B13F4
+P 5400 7200
+F 0 "D20" V 5438 7083 50  0000 R CNN
+F 1 "LED" V 5347 7083 50  0000 R CNN
+F 2 "LEDs:LED_Rectangular_W5.0mm_H2.0mm" H 5400 7200 50  0001 C CNN
+F 3 "~" H 5400 7200 50  0001 C CNN
+	1    5400 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5C5B13FB
+P 5400 7350
+F 0 "#PWR0116" H 5400 7100 50  0001 C CNN
+F 1 "GND" H 5405 7177 50  0000 C CNN
+F 2 "" H 5400 7350 50  0001 C CNN
+F 3 "" H 5400 7350 50  0001 C CNN
+	1    5400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 5C5B1401
+P 5400 6900
+F 0 "R36" H 5470 6946 50  0000 L CNN
+F 1 "R" H 5470 6855 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5330 6900 50  0001 C CNN
+F 3 "~" H 5400 6900 50  0001 C CNN
+	1    5400 6900
+	1    0    0    -1  
+$EndComp
+Text Label 5400 5750 0    50   ~ 0
+A0
+Text Label 5050 5750 0    50   ~ 0
+A1
+Text Label 4700 5750 0    50   ~ 0
+A2
+Text Label 4350 5750 0    50   ~ 0
+A3
+Text Label 4000 5750 0    50   ~ 0
+A4
+Text Label 3650 5750 0    50   ~ 0
+A5
+Text Label 3300 5750 0    50   ~ 0
+A6
+Text Label 2950 5750 0    50   ~ 0
+A7
+Text Label 5400 6750 0    50   ~ 0
+B0
+Text Label 5050 6750 0    50   ~ 0
+B1
+Text Label 4700 6750 0    50   ~ 0
+B2
+Text Label 4350 6750 0    50   ~ 0
+B3
+Text Label 4000 6750 0    50   ~ 0
+B4
+Text Label 3650 6750 0    50   ~ 0
+B5
+Text Label 3300 6750 0    50   ~ 0
+B6
+Text Label 2950 6750 0    50   ~ 0
+B7
 $EndSCHEMATC
