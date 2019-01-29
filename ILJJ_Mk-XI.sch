@@ -708,92 +708,28 @@ $EndComp
 Connection ~ 1650 2650
 Wire Wire Line
 	7300 2150 8200 2150
-$Comp
-L Connector_Generic:Conn_02x12_Row_Letter_Last J4
-U 1 1 5C481A6C
-P 8750 2650
-F 0 "J4" H 8800 3367 50  0000 C CNN
-F 1 "Conn_02x12_Row_Letter_Last" H 8800 3276 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x12_Pitch2.54mm" H 8750 2650 50  0001 C CNN
-F 3 "~" H 8750 2650 50  0001 C CNN
-	1    8750 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7300 2650 8200 2650
 Wire Wire Line
 	8200 2650 8200 3250
 Connection ~ 7300 2650
-Connection ~ 8550 3250
-Wire Wire Line
-	8550 3250 9050 3250
 Wire Wire Line
 	7350 2550 8300 2550
 Wire Wire Line
 	8300 2550 8300 3050
-Wire Wire Line
-	8300 3050 8550 3050
-Connection ~ 8550 3050
-Wire Wire Line
-	8550 3050 9050 3050
-Wire Wire Line
-	8550 2450 9050 2450
-Wire Wire Line
-	8550 2350 9050 2350
-Wire Wire Line
-	8550 2250 9050 2250
-Wire Wire Line
-	9050 2150 8550 2150
 Connection ~ 8200 2150
-Connection ~ 8550 2150
-Wire Wire Line
-	8550 2150 8200 2150
 Wire Wire Line
 	8200 3250 8200 3450
 Connection ~ 8200 3250
-Wire Wire Line
-	8200 3250 8550 3250
-$Comp
-L Connector_Generic:Conn_02x12_Row_Letter_Last J5
-U 1 1 5C4ACF80
-P 2600 2650
-F 0 "J5" H 2650 3367 50  0000 C CNN
-F 1 "Conn_02x12_Row_Letter_Last" H 2650 3276 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x12_Pitch2.54mm" H 2600 2650 50  0001 C CNN
-F 3 "~" H 2600 2650 50  0001 C CNN
-	1    2600 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 2150 3800 2150
-Wire Wire Line
-	2400 2150 2900 2150
-Connection ~ 2900 2150
-Wire Wire Line
-	2400 2250 2900 2250
-Wire Wire Line
-	2400 2350 2900 2350
-Wire Wire Line
-	2400 2450 2900 2450
 Wire Wire Line
 	3750 2550 3500 2550
 Wire Wire Line
 	3800 2650 3600 2650
 Wire Wire Line
 	3600 2650 3600 3250
-Wire Wire Line
-	3600 3250 2900 3250
 Connection ~ 3800 2650
-Connection ~ 2900 3250
-Wire Wire Line
-	2900 3250 2400 3250
 Wire Wire Line
 	3500 2550 3500 3050
-Wire Wire Line
-	3500 3050 2900 3050
-Connection ~ 2900 3050
-Wire Wire Line
-	2900 3050 2400 3050
 $Comp
 L 74xx:7400 U1
 U 1 1 5C578E88
@@ -1139,17 +1075,8 @@ NoConn ~ 2400 2750
 NoConn ~ 2400 2850
 NoConn ~ 2400 2950
 NoConn ~ 2400 3150
-Wire Wire Line
-	2900 2250 3800 2250
-Connection ~ 2900 2250
 Connection ~ 3800 2250
-Wire Wire Line
-	2900 2350 3800 2350
-Connection ~ 2900 2350
 Connection ~ 3800 2350
-Wire Wire Line
-	2900 2450 3800 2450
-Connection ~ 2900 2450
 Connection ~ 3800 2450
 $Comp
 L Device:LED D4
@@ -1952,4 +1879,77 @@ Text Label 3300 6750 0    50   ~ 0
 B6
 Text Label 2950 6750 0    50   ~ 0
 B7
+Wire Wire Line
+	8300 3050 8550 3050
+Wire Wire Line
+	8200 3250 8550 3250
+Wire Wire Line
+	8200 2150 8550 2150
+$Comp
+L Connector_Generic:Conn_02x12_Odd_Even J4
+U 1 1 5C70FF81
+P 8750 2650
+F 0 "J4" H 8800 3367 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 8800 3276 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x12_Pitch2.54mm" H 8750 2650 50  0001 C CNN
+F 3 "~" H 8750 2650 50  0001 C CNN
+	1    8750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2150 9050 2150
+Connection ~ 8550 2150
+Wire Wire Line
+	8550 3050 9050 3050
+Connection ~ 8550 3050
+Wire Wire Line
+	8550 3250 9050 3250
+Connection ~ 8550 3250
+Wire Wire Line
+	8550 2250 9050 2250
+Wire Wire Line
+	8550 2350 9050 2350
+Wire Wire Line
+	8550 2450 9050 2450
+$Comp
+L Connector_Generic:Conn_02x12_Odd_Even J5
+U 1 1 5C734624
+P 2600 2650
+F 0 "J5" H 2650 3367 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 2650 3276 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x12_Pitch2.54mm" H 2600 2650 50  0001 C CNN
+F 3 "~" H 2600 2650 50  0001 C CNN
+	1    2600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2150 3800 2150
+Wire Wire Line
+	2900 3050 3500 3050
+Wire Wire Line
+	2900 3250 3600 3250
+Wire Wire Line
+	2900 2250 3800 2250
+Wire Wire Line
+	2900 2350 3800 2350
+Wire Wire Line
+	2900 2450 3800 2450
+Wire Wire Line
+	2400 2150 2900 2150
+Connection ~ 2900 2150
+Wire Wire Line
+	2400 2250 2900 2250
+Connection ~ 2900 2250
+Wire Wire Line
+	2400 2350 2900 2350
+Connection ~ 2900 2350
+Wire Wire Line
+	2400 2450 2900 2450
+Connection ~ 2900 2450
+Wire Wire Line
+	2400 3050 2900 3050
+Connection ~ 2900 3050
+Wire Wire Line
+	2400 3250 2900 3250
+Connection ~ 2900 3250
 $EndSCHEMATC
