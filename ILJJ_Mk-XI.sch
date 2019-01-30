@@ -743,13 +743,13 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 5400 4050 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:7400 U1
-U 2 1 5C578F10
+U 4 1 5C578F10
 P 6000 4050
 F 0 "U1" H 6000 4375 50  0000 C CNN
 F 1 "7400" H 6000 4284 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6000 4050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 6000 4050 50  0001 C CNN
-	2    6000 4050
+	4    6000 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -765,13 +765,13 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 5400 4700 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:7400 U2
-U 2 1 5C579033
+U 4 1 5C579033
 P 6000 4700
 F 0 "U2" H 6000 5025 50  0000 C CNN
 F 1 "7400" H 6000 4934 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6000 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 6000 4700 50  0001 C CNN
-	2    6000 4700
+	4    6000 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -787,79 +787,79 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 5400 5300 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:7400 U3
-U 2 1 5C57B374
+U 4 1 5C57B374
 P 6000 5300
 F 0 "U3" H 6000 5625 50  0000 C CNN
 F 1 "7400" H 6000 5534 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6000 5300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 6000 5300 50  0001 C CNN
-	2    6000 5300
+	4    6000 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U1
-U 3 1 5C57D6B2
+U 2 1 5C57D6B2
 P 6800 4050
 F 0 "U1" H 6800 4375 50  0000 C CNN
 F 1 "7400" H 6800 4284 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6800 4050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 6800 4050 50  0001 C CNN
-	3    6800 4050
+	2    6800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U1
-U 4 1 5C57D6B9
+U 3 1 5C57D6B9
 P 7400 4050
 F 0 "U1" H 7400 4375 50  0000 C CNN
 F 1 "7400" H 7400 4284 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7400 4050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 7400 4050 50  0001 C CNN
-	4    7400 4050
+	3    7400 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U2
-U 3 1 5C58418B
+U 2 1 5C58418B
 P 6800 4700
 F 0 "U2" H 6800 5025 50  0000 C CNN
 F 1 "7400" H 6800 4934 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6800 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 6800 4700 50  0001 C CNN
-	3    6800 4700
+	2    6800 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U2
-U 4 1 5C584192
+U 3 1 5C584192
 P 7400 4700
 F 0 "U2" H 7400 5025 50  0000 C CNN
 F 1 "7400" H 7400 4934 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7400 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 7400 4700 50  0001 C CNN
-	4    7400 4700
+	3    7400 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U3
-U 3 1 5C5864CC
+U 2 1 5C5864CC
 P 6800 5300
 F 0 "U3" H 6800 5625 50  0000 C CNN
 F 1 "7400" H 6800 5534 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6800 5300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 6800 5300 50  0001 C CNN
-	3    6800 5300
+	2    6800 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U3
-U 4 1 5C5864D3
+U 3 1 5C5864D3
 P 7400 5300
 F 0 "U3" H 7400 5625 50  0000 C CNN
 F 1 "7400" H 7400 5534 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7400 5300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 7400 5300 50  0001 C CNN
-	4    7400 5300
+	3    7400 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1952,4 +1952,71 @@ Connection ~ 2900 3050
 Wire Wire Line
 	2400 3250 2900 3250
 Connection ~ 2900 3250
+$Comp
+L 74xx:7400 U1
+U 5 1 5C79836F
+P 8500 5500
+F 0 "U1" H 8730 5546 50  0000 L CNN
+F 1 "7400" H 8730 5455 50  0000 L CNN
+F 2 "" H 8500 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 8500 5500 50  0001 C CNN
+	5    8500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U2
+U 5 1 5C798BB2
+P 9200 5500
+F 0 "U2" H 9430 5546 50  0000 L CNN
+F 1 "7400" H 9430 5455 50  0000 L CNN
+F 2 "" H 9200 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 9200 5500 50  0001 C CNN
+	5    9200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U3
+U 5 1 5C798C82
+P 9900 5500
+F 0 "U3" H 10130 5546 50  0000 L CNN
+F 1 "7400" H 10130 5455 50  0000 L CNN
+F 2 "" H 9900 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 9900 5500 50  0001 C CNN
+	5    9900 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5000 9200 5000
+Connection ~ 9200 5000
+Wire Wire Line
+	9200 5000 9900 5000
+Wire Wire Line
+	8500 6000 9200 6000
+Connection ~ 9200 6000
+Wire Wire Line
+	9200 6000 9900 6000
+$Comp
+L power:GND #PWR028
+U 1 1 5C7A6C0C
+P 9900 6000
+F 0 "#PWR028" H 9900 5750 50  0001 C CNN
+F 1 "GND" H 9905 5827 50  0000 C CNN
+F 2 "" H 9900 6000 50  0001 C CNN
+F 3 "" H 9900 6000 50  0001 C CNN
+	1    9900 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9900 6000
+$Comp
+L power:VCC #PWR027
+U 1 1 5C7A6E26
+P 8500 5000
+F 0 "#PWR027" H 8500 4850 50  0001 C CNN
+F 1 "VCC" H 8517 5173 50  0000 C CNN
+F 2 "" H 8500 5000 50  0001 C CNN
+F 3 "" H 8500 5000 50  0001 C CNN
+	1    8500 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 5000
 $EndSCHEMATC
