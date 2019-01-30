@@ -123,7 +123,6 @@ Wire Wire Line
 	6800 2600 7350 2600
 Wire Wire Line
 	7350 2600 7350 2550
-Connection ~ 3800 2150
 Wire Wire Line
 	4300 2550 4300 2600
 Wire Wire Line
@@ -895,26 +894,9 @@ Wire Wire Line
 Text Label 9050 2250 0    50   ~ 0
 F2
 Wire Wire Line
-	6500 3950 6500 4050
-Wire Wire Line
-	6300 4050 6400 4050
-Connection ~ 6500 4050
-Wire Wire Line
-	6500 4050 6500 4150
-Wire Wire Line
-	6500 4600 6500 4700
-Wire Wire Line
 	6300 4700 6400 4700
-Connection ~ 6500 4700
-Wire Wire Line
-	6500 4700 6500 4800
-Wire Wire Line
-	6500 5200 6500 5300
 Wire Wire Line
 	6300 5300 6400 5300
-Connection ~ 6500 5300
-Wire Wire Line
-	6500 5300 6500 5400
 Wire Wire Line
 	5100 3950 5100 4050
 Wire Wire Line
@@ -947,20 +929,9 @@ Wire Wire Line
 Text Label 5000 5300 2    50   ~ 0
 F0
 Wire Wire Line
-	6400 4050 6400 3950
-Connection ~ 6400 4050
-Wire Wire Line
-	6400 4050 6500 4050
-Wire Wire Line
 	6400 4700 6400 4600
-Connection ~ 6400 4700
-Wire Wire Line
-	6400 4700 6500 4700
 Wire Wire Line
 	6400 5300 6400 5200
-Connection ~ 6400 5300
-Wire Wire Line
-	6400 5300 6500 5300
 Text Label 6400 3950 1    50   ~ 0
 F2_1
 Text Label 7700 4050 0    50   ~ 0
@@ -1075,9 +1046,6 @@ NoConn ~ 2400 2750
 NoConn ~ 2400 2850
 NoConn ~ 2400 2950
 NoConn ~ 2400 3150
-Connection ~ 3800 2250
-Connection ~ 3800 2350
-Connection ~ 3800 2450
 $Comp
 L Device:LED D4
 U 1 1 5C6E6350
@@ -1923,29 +1891,17 @@ F 3 "~" H 2600 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 2150 3800 2150
-Wire Wire Line
 	2900 3050 3500 3050
 Wire Wire Line
 	2900 3250 3600 3250
 Wire Wire Line
-	2900 2250 3800 2250
-Wire Wire Line
-	2900 2350 3800 2350
-Wire Wire Line
-	2900 2450 3800 2450
-Wire Wire Line
 	2400 2150 2900 2150
-Connection ~ 2900 2150
 Wire Wire Line
 	2400 2250 2900 2250
-Connection ~ 2900 2250
 Wire Wire Line
 	2400 2350 2900 2350
-Connection ~ 2900 2350
 Wire Wire Line
 	2400 2450 2900 2450
-Connection ~ 2900 2450
 Wire Wire Line
 	2400 3050 2900 3050
 Connection ~ 2900 3050
@@ -2019,4 +1975,30 @@ F 3 "" H 8500 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8500 5000
+Connection ~ 3800 2150
+Connection ~ 2900 2150
+Wire Wire Line
+	2900 2150 3800 2150
+Text Label 2900 2250 0    50   ~ 0
+F2
+Text Label 2900 2350 0    50   ~ 0
+F1
+Text Label 2900 2450 0    50   ~ 0
+F0
+Wire Wire Line
+	6500 3950 6500 4150
+Wire Wire Line
+	6300 4050 6400 4050
+Wire Wire Line
+	6400 4050 6400 3950
+Wire Wire Line
+	6500 4600 6500 4800
+Wire Wire Line
+	6500 5200 6500 5400
+Text Label 6500 3950 1    50   ~ 0
+F2
+Text Label 6500 4600 1    50   ~ 0
+F1
+Text Label 6500 5200 1    50   ~ 0
+F0
 $EndSCHEMATC
