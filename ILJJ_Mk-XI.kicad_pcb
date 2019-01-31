@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 8)
     (tracks 622)
     (zones 0)
     (modules 84)
@@ -347,12 +347,12 @@
     (add_net VCC)
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C51D1C9)
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5C528226) (tstamp 5C51D1C9)
     (at 222.25 53.34)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3mm (at 0 4) (layer F.Fab)
@@ -366,12 +366,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C51D1C9)
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5C52823D) (tstamp 5C51D1C9)
     (at 222.25 142.24)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 7.62 -3.81) (layer F.SilkS)
+    (fp_text reference REF** (at 7.62 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3mm (at 0 4) (layer F.Fab)
@@ -385,12 +385,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C51D1C9)
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5C528232) (tstamp 5C51D1C9)
     (at 105.41 142.24)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at -6.35 -4) (layer F.SilkS)
+    (fp_text reference REF** (at -6.35 -4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3mm (at 0 4) (layer F.Fab)
@@ -3437,12 +3437,12 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5C527C53) (tstamp 5C528035)
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5C52822D) (tstamp 5C528035)
     (at 105.41 53.34)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3mm (at 0 4) (layer F.Fab)
@@ -3571,10 +3571,14 @@
       (xy -0.592666 0.508) (xy -0.594526 3.450167)) (layer F.SilkS) (width 0.01))
   )
 
-  (gr_line (start 101.6 146.05) (end 101.6 49.53) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 226.06 146.05) (end 101.6 146.05) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 226.06 49.53) (end 101.6 49.53) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 226.06 146.05) (end 226.06 49.53) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 102.235 146.05) (end 101.6 145.415) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 102.235 49.53) (end 101.6 50.165) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 225.425 49.53) (end 226.06 50.165) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 226.06 145.415) (end 225.425 146.05) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 101.6 145.415) (end 101.6 50.165) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 225.425 146.05) (end 102.235 146.05) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 225.425 49.53) (end 102.235 49.53) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 226.06 145.415) (end 226.06 50.165) (layer Edge.Cuts) (width 0.2))
 
   (segment (start 220.98 110.49) (end 220.98 106.68) (width 0.25) (layer B.Cu) (net 1) (status 30))
   (segment (start 148.59 55.88) (end 148.59 53.34) (width 1) (layer B.Cu) (net 2) (tstamp 5C515DE1) (status 20))
